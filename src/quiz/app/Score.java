@@ -41,6 +41,8 @@ public class Score extends JFrame {
             }
         });
 
+
+
         ImageIcon i11 = new ImageIcon(ClassLoader.getSystemResource("icon/back.png"));
         Image i22 = i11.getImage().getScaledInstance(750,550,Image.SCALE_DEFAULT);
         ImageIcon i33 = new ImageIcon(i22);
@@ -54,6 +56,8 @@ public class Score extends JFrame {
         setLayout(null);
         setVisible(true);
     }
+
+
     public static void main(String[] args){
         new Score("User",0);
     }
